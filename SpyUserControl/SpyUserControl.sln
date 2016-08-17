@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyUserControl.Domain", "Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyuserControl.Common", "SpyuserControl.Common\SpyuserControl.Common.csproj", "{7891F734-BB3C-497F-B303-040A99EE4DB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyUserControl.Infraestructure", "SpyUserControl.Infraestructure\SpyUserControl.Infraestructure.csproj", "{1A8C9E33-D37C-46E8-9423-069DEAFC79BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7891F734-BB3C-497F-B303-040A99EE4DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7891F734-BB3C-497F-B303-040A99EE4DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7891F734-BB3C-497F-B303-040A99EE4DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8C9E33-D37C-46E8-9423-069DEAFC79BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8C9E33-D37C-46E8-9423-069DEAFC79BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8C9E33-D37C-46E8-9423-069DEAFC79BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8C9E33-D37C-46E8-9423-069DEAFC79BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

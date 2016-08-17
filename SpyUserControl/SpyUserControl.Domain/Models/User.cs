@@ -8,6 +8,8 @@ namespace SpyUserControl.Domain.Models
     public class User
     {
 
+        protected User() { }
+
         #region Ctor
         public User(string email, string name)
         {
