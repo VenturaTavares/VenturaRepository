@@ -1,0 +1,5 @@
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Resource\bin\Debug\SpyUserControl.Resource.dll
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Resource\bin\Debug\SpyUserControl.Resource.pdb
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Resource\obj\Debug\SpyUserControl.Common.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Resource\obj\Debug\SpyUserControl.Resource.dll
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Resource\obj\Debug\SpyUserControl.Resource.pdb

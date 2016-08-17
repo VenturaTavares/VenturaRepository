@@ -1,0 +1,7 @@
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyUserControl.Domain.dll
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyUserControl.Domain.pdb
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyuserControl.Common.dll
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyuserControl.Common.pdb
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.dll
+C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.pdb
