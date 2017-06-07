@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SpyUserControl.Domain.Contracts.Repository
 {
-    interface IUserRepository
+    public interface IUserRepository : IDisposable
     {
         User Get(string email);
 

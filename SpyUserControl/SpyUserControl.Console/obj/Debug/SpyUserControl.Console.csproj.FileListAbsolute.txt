@@ -1,0 +1,17 @@
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyUserControl.Console.exe.config
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyUserControl.Console.exe
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyUserControl.Console.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\EntityFramework.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\EntityFramework.xml
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\obj\Debug\SpyUserControl.Console.exe
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\obj\Debug\SpyUserControl.Console.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyUserControl.Domain.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyUserControl.Infraestructure.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyuserControl.Common.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyUserControl.Domain.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyUserControl.Infraestructure.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\SpyuserControl.Common.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\bin\Debug\pt-BR\SpyuserControl.Common.resources.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Console\obj\Debug\SpyUserControl.Console.csprojResolveAssemblyReference.cache

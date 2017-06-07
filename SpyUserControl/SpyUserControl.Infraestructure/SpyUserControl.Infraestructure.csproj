@@ -50,6 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\AppDataContext.cs" />
+    <Compile Include="Data\Map\UserMap.cs" />
+    <Compile Include="Data\Repositories\UserRepository.cs" />
+    <Compile Include="Migrations\201608181604100__version_1.0.cs" />
+    <Compile Include="Migrations\201608181604100__version_1.0.Designer.cs">
+      <DependentUpon>201608181604100__version_1.0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608181606585_version_1.01.cs" />
+    <Compile Include="Migrations\201608181606585_version_1.01.Designer.cs">
+      <DependentUpon>201608181606585_version_1.01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +72,14 @@
       <Project>{84826d39-c33d-4218-80e6-b66854236a1a}</Project>
       <Name>SpyUserControl.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201608181604100__version_1.0.resx">
+      <DependentUpon>201608181604100__version_1.0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608181606585_version_1.01.resx">
+      <DependentUpon>201608181606585_version_1.01.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

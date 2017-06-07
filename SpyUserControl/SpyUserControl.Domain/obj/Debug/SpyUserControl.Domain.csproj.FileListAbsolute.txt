@@ -5,3 +5,11 @@ C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyuserControl
 C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyuserControl.Common.pdb
 C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.dll
 C:\Desenvolvimento\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyUserControl.Domain.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyUserControl.Domain.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyuserControl.Common.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\bin\Debug\SpyuserControl.Common.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\bin\Debug\pt-BR\SpyuserControl.Common.resources.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyUserControl.Domain\obj\Debug\SpyUserControl.Domain.pdb

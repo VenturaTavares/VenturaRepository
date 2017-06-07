@@ -1,0 +1,14 @@
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\DevStore.Service.dll.config
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\DevStore.Service.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\DevStore.Service.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\DevStore.Domain.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\DevStore.Infra.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\EntityFramework.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\DevStore.Domain.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\DevStore.Infra.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\EntityFramework.xml
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\obj\Debug\DevStore.Service.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\obj\Debug\DevStore.Service.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Service\obj\Debug\DevStore.Service.pdb

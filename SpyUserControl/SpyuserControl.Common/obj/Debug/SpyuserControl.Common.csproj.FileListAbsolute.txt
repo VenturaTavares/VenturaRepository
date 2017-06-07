@@ -5,3 +5,13 @@ C:\Desenvolvimento\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl
 C:\Desenvolvimento\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.pdb
 C:\Desenvolvimento\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.Resource.Errors.resources
 C:\Desenvolvimento\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.csproj.GenerateResource.Cache
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\bin\Debug\SpyuserControl.Common.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\bin\Debug\SpyuserControl.Common.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\bin\Debug\pt-BR\SpyuserControl.Common.resources.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.Resource.Errors.resources
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.Resource.Error.pt-BR.resources
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.csproj.GenerateResource.Cache
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\obj\Debug\pt-BR\SpyuserControl.Common.resources.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\SpyUserControl\SpyuserControl.Common\obj\Debug\SpyuserControl.Common.pdb

@@ -1,0 +1,66 @@
+﻿
+@model IEnumerable<DevStore.Domain.Produto>
+
+<table class="table table-striped">
+
+    <tr>
+        <th>Código do Produto</th>
+        <th>Nome</th>
+        <th>Valor</th>
+        <th>Quantidade em Estoque</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.ToList())
+    {
+        <tr>
+            <td>@item.IDProduto</td>
+            <td>@item.Nome</td>
+            <td>@item.Valor</td>
+            <td>@item.Quantidade</td>
+
+            <td><button id="AddItemPedido" onclick="AdcionarItem('@item.IDProduto')" class="btn btn-success"> <i class="glyphicon glyphicon-shopping-cart"></i>  </button></td>
+
+        </tr>
+    }
+
+</table>
+
+<script type="text/javascript">
+    function AdcionarItem(ID) {
+
+        var carrinhoID = $("#CarrinhoID").val();
+
+        $.ajax(
+         {
+             type: 'GET',
+             url: '/Home/IncluirItemPedido',
+             contentType: "application/json; charset=utf-8",
+             dataType: 'html',
+             data: {
+                 IDProduto: ID,
+                 IDCarrinho: carrinhoID
+             },
+             cache: false,
+             async: true,
+             success: function (json) {
+                 $("#itemPedidoTable").empty();
+
+                 response = $.parseJSON(json)
+                 ;
+                 var trHTML = '';
+                 $.each(response, function (i, item) {
+                     trHTML += '<tr><td>' + item.Produto.IDProduto + '</td><td>' + item.Produto.Nome + '</td><td>' + item.Produto.Valor + '</td><td>' + item.Quantidade + '</td><td><button onclick="RemoverItem(' + item.IDItemPedido + ')" class="btn btn-danger"> <i class="glyphicon glyphicon-trash"></i></button> </button> </td>  </tr>';
+                 });
+
+                 $('#itemPedidoTable').append(trHTML);
+             }
+         });
+    }
+
+
+
+
+
+
+</script>

@@ -2,3 +2,8 @@ C:\Desenvolvimento\DevStore\DevStore.Domain\bin\Debug\DevStore.Domain.dll
 C:\Desenvolvimento\DevStore\DevStore.Domain\bin\Debug\DevStore.Domain.pdb
 C:\Desenvolvimento\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.dll
 C:\Desenvolvimento\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Domain\bin\Debug\DevStore.Domain.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Domain\bin\Debug\DevStore.Domain.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.dll
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.pdb
+C:\Desenvolvimento\Ventura\VenturaRepository\VenturaRepository\DevStore\DevStore.Domain\obj\Debug\DevStore.Domain.csprojResolveAssemblyReference.cache

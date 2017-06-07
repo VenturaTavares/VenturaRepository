@@ -21,27 +21,27 @@ namespace DevStoreApi.Controllers
         [Route("products")]
         public HttpResponseMessage GetProducts()
         {
-            var result = db.Products.Include("Category").ToList();
+            var result = db.Produtos.Include("Category").ToList();
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
         [Route("categories")]
         public HttpResponseMessage GetCategories()
         {
-            var result = db.Categories.ToList();
+            var result = db.Categorias.ToList();
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
         [Route("categories/{categoryId}/products")]
         public HttpResponseMessage GetProductsByCategories(int categoryId)
         {
-            var result = db.Products.Include("Category").Where(x => x.CategoryId == categoryId).ToList();
+            var result = db.Produtos.Include("Category").ToList();
             return Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
         [HttpPost]
         [Route("products")]
-        public HttpResponseMessage PostProduct(Product product)
+        public HttpResponseMessage PostProduct(Produto product)
         {
 
             if (product == null)
@@ -49,7 +49,7 @@ namespace DevStoreApi.Controllers
 
             try
             {
-                db.Products.Add(product);
+                db.Produtos.Add(product);
                 db.SaveChanges();
 
                 var result = product;
@@ -68,7 +68,7 @@ namespace DevStoreApi.Controllers
 
         [HttpPut]
         [Route("products")]
-        public HttpResponseMessage PutProduct(Product product)
+        public HttpResponseMessage PutProduct(Produto product)
         {
 
             if (product == null)
@@ -78,7 +78,7 @@ namespace DevStoreApi.Controllers
 
             try
             {
-                db.Entry<Product>(product).State = EntityState.Modified;
+                db.Entry<Produto>(product).State = EntityState.Modified;
                 db.SaveChanges();
                 var result = product;
                 return Request.CreateResponse(HttpStatusCode.OK, result);
@@ -91,7 +91,7 @@ namespace DevStoreApi.Controllers
 
         [HttpPatch]
         [Route("products")]
-        public HttpResponseMessage PatchProduct(Product product)
+        public HttpResponseMessage PatchProduct(Produto product)
         {
 
             if (product == null)
@@ -101,7 +101,7 @@ namespace DevStoreApi.Controllers
 
             try
             {
-                db.Entry<Product>(product).State = EntityState.Modified;
+                db.Entry<Produto>(product).State = EntityState.Modified;
                 db.SaveChanges();
                 var result = product;
                 return Request.CreateResponse(HttpStatusCode.OK, result);
@@ -123,7 +123,7 @@ namespace DevStoreApi.Controllers
 
             try
             {
-                db.Products.Remove(db.Products.Find(ProductId));
+                db.Produtos.Remove(db.Produtos.Find(ProductId));
                 db.SaveChanges();
                 return Request.CreateResponse(HttpStatusCode.OK, "Produto Excluído");
             }

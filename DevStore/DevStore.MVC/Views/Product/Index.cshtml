@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h3>Macoratti .net</h3>
+<hr />
+<div ng-controller="produtosCtrl">
+    <table class="table table-striped">
+        {{Mensagem}}
+        <tr ng-repeat="produto in produtos">
+            <td> {{produto.Title}} </td>
+            <td class="text-right">
+                <button class="btn btn-danger" ng-click="DeletaProduto(produto)" data-toggle="tooltip" title="Clique para Deletar Produto">X</button>
+            </td>
+        </tr>
+        <tr>
+            <th>Nome do Produto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preço do Produto</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" required ng-model="produto.Title" />
+                <input type="text" required ng-model="produto.Price" />
+                <a href="#" class="btn btn-primary" ng-click="AddProduto(produto)" ng-disabled="!produto.Title || !produto.Price"
+                   data-toggle="tooltip" title="Adicionar Produto">Adicionar Produto</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+

@@ -1,0 +1,84 @@
+﻿@model DevStore.Domain.Models.Carrinho
+
+@{
+    ViewBag.Title = "DetalheCompra";
+}
+
+<h2>Detalhe da Compra</h2>
+<hr />
+<div>
+  
+
+   
+
+    <dl class="dl-horizontal">
+
+
+        <dt>
+            @Html.DisplayName("Nome do Cliente")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Data da Compra")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCompra)
+        </dd>
+
+        <dt>&nbsp;Forma de Pagamento
+        </dt>
+
+        <dd>
+            @if (Model.TipoCompra == 1)
+            {      @Html.DisplayName("Boleto") }
+            else
+            {
+                @Html.DisplayName("Cartão de Crédito")
+            }
+
+        </dd>
+        <dt>
+            @Html.DisplayName("Valor da Compra")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValorCompra)
+        </dd>
+
+    </dl>
+</div>
+<div class="row">
+
+    <h4>Itens da Compra</h4>
+    <hr />
+
+    <table id="" class="table table-striped">
+        <tr>
+            <th>Código do Produto</th>
+            <th>Nome</th>
+            <th>Valor Unitário</th>
+            <th>Quantidade</th>
+            <td>Valor Total</td>
+        </tr>
+        <tbody id="">
+            @foreach (var item in Model.ItensPedido.ToList())
+            {
+                <tr>
+                    <td > @item.Produto.IDProduto </td >
+                    <td > @item.Produto.Nome </td >
+                    <td > @item.Produto.Valor </td >
+                    <td > @item.Quantidade </td >
+                    <td> @item.ValorTotal </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p>
+    <a class="btn btn-default" href="/">Nova Compra</a></p>

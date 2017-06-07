@@ -1,0 +1,85 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model DevStore.Service.DTO.CompraDTO
+
+
+<div class="page-header">
+    <h1>E-Commerce<small> Consoles </small></h1>
+</div>
+
+
+
+@using (Html.BeginForm("IncluirCarrinho", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="row">
+
+        <div class="col-sm-6">
+            @Html.Label("", "Nome Cliente")
+            @Html.TextBoxFor(x => x.Carrinho.NomeCliente, new { @class = "form-control" })
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <button type="submit" id="btnCriarCarrinho" class="btn btn-default">Criar Carrinho</button>
+            @Html.ActionLink("Nova Compra", "Index", null, new { @id = "btnNova", @class = "btn btn-default" })
+        </div>
+    </div>
+
+}
+
+<hr />
+
+@{if (Model.Carrinho.IDCarrinho > 0)
+            {
+
+        <div class="row">
+            @Html.ActionLink("Pagamento via Boleto", "EfetuarCompraBoleto", new { IDCarrinho = Model.Carrinho.IDCarrinho }, new { @class = "pull-right btn btn-default" })
+            @Html.ActionLink("Pagamento via Cartão de Crédito", "EfetuarCompraCartao", new { IDCarrinho = Model.Carrinho.IDCarrinho }, new { @class = "pull-right btn btn-default" })
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>Produtos <i class="glyphicon glyphicon-star"></i></h4>
+                <hr />
+                @{ Html.RenderPartial("_Produto", Model.ListaProdutos);  }
+            </div>
+        </div>
+
+
+                <div class="row">
+                    <div id="ItemPedidoPartial" class="col-sm-12">
+                        <h4>Carrinho de Compras <i class="glyphicon glyphicon-shopping-cart"></i> </h4>
+                        <hr />
+                        @{ Html.RenderPartial("_ItemPedito", Model.ItensPedido);  }
+                    </div>
+                </div>
+
+
+
+
+                            }
+                            @Html.HiddenFor(s => s.Carrinho.IDCarrinho, new { @id = "CarrinhoID" });
+}
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var IDCarrinho = @Model.Carrinho.IDCarrinho;
+
+            if(IDCarrinho==0){
+
+                $("#btnNova").attr("disabled","disabled");
+                $("#btnCriarCarrinho").removeAttr("disabled");
+            }else{
+
+                $("#btnCriarCarrinho").attr("disabled","disabled");
+                $("#btnNova").removeAttr("disabled");
+            }
+        })
+
+    </script>
+}

@@ -50,11 +50,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext\DevStoreDataContext.cs" />
-    <Compile Include="Mappings\CategoryMap.cs" />
+    <Compile Include="Mappings\CarrinhoMap.cs" />
+    <Compile Include="Mappings\CategoriaMap.cs" />
+    <Compile Include="Mappings\ItemPedidoMap.cs" />
     <Compile Include="Mappings\ProductsMap.cs" />
-    <Compile Include="Migrations\201608092211208_teste.cs" />
-    <Compile Include="Migrations\201608092211208_teste.Designer.cs">
-      <DependentUpon>201608092211208_teste.cs</DependentUpon>
+    <Compile Include="Migrations\201706062334409_Initialze_DB.cs" />
+    <Compile Include="Migrations\201706062334409_Initialze_DB.Designer.cs">
+      <DependentUpon>201706062334409_Initialze_DB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706071404557__lazy_load.cs" />
+    <Compile Include="Migrations\201706071404557__lazy_load.Designer.cs">
+      <DependentUpon>201706071404557__lazy_load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706071740000__incluir_novos_campos.cs" />
+    <Compile Include="Migrations\201706071740000__incluir_novos_campos.Designer.cs">
+      <DependentUpon>201706071740000__incluir_novos_campos.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +80,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201608092211208_teste.resx">
-      <DependentUpon>201608092211208_teste.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706062334409_Initialze_DB.resx">
+      <DependentUpon>201706062334409_Initialze_DB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706071404557__lazy_load.resx">
+      <DependentUpon>201706071404557__lazy_load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706071740000__incluir_novos_campos.resx">
+      <DependentUpon>201706071740000__incluir_novos_campos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,19 +8,22 @@ using System.Threading.Tasks;
 
 namespace DevStore.Infra.Mappings
 {
-   public class ProductsMap: EntityTypeConfiguration<Product>
+   public class ProductsMap: EntityTypeConfiguration<Produto>
     {
 
         public ProductsMap()
         {
-            ToTable("Product");
-            HasKey(x => x.Id);
+            ToTable("Produto");
+            HasKey(x => x.IDProduto);
 
-            Property(x => x.Title).HasMaxLength(160).IsRequired();
-            Property(x => x.Price).IsRequired();
-            Property(x => x.AcquireDate).IsRequired();
+            Property(x => x.Nome).HasMaxLength(160).IsRequired();
 
-            HasRequired(x => x.Category);
+            Property(x => x.Quantidade).IsRequired();
+
+            Property(x => x.Valor).IsRequired();
+
+            HasRequired(x => x.Categoria);
+
         }
     }
 }

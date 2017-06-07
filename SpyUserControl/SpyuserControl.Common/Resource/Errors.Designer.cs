@@ -61,6 +61,15 @@ namespace SpyuserControl.Common.Resource {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Credentials is invalid.
+        /// </summary>
+        public static string InvalidCredentials {
+            get {
+                return ResourceManager.GetString("InvalidCredentials", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Email is Invalid.
         /// </summary>
         public static string InvalidEmail {

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStore.Infra", "DevStore.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStoreApi", "DevStoreApi\DevStoreApi.csproj", "{DF46F42B-6F8B-49C8-BC9D-A29CC766B160}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStore.MVC", "DevStore.MVC\DevStore.MVC.csproj", "{6672BFA1-1228-46EB-8008-3C79D60D1AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStore.Service", "DevStore.Service\DevStore.Service.csproj", "{4F030C21-6A29-4588-8FA2-897841D62146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DF46F42B-6F8B-49C8-BC9D-A29CC766B160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF46F42B-6F8B-49C8-BC9D-A29CC766B160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF46F42B-6F8B-49C8-BC9D-A29CC766B160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6672BFA1-1228-46EB-8008-3C79D60D1AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6672BFA1-1228-46EB-8008-3C79D60D1AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6672BFA1-1228-46EB-8008-3C79D60D1AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6672BFA1-1228-46EB-8008-3C79D60D1AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F030C21-6A29-4588-8FA2-897841D62146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F030C21-6A29-4588-8FA2-897841D62146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F030C21-6A29-4588-8FA2-897841D62146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F030C21-6A29-4588-8FA2-897841D62146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
