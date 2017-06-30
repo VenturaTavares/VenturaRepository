@@ -45,7 +45,7 @@ namespace DevStore.Service.Repositorio.Entidades
 
             var ItemPedido = base.Obter(s => s.IDItemPedido == IDitemPedido).FirstOrDefault();
 
-            if (ItemPedido != null)
+            if (ItemPedido != null && ItemPedido.Quantidade > 1)
             {
 
                 ItemPedido.Quantidade--;
